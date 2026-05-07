@@ -1,0 +1,35 @@
+# secrets / env
+.env
+.env.local
+.env.*.local
+
+# python
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+.pytest_cache/
+
+# data
+data/*.duckdb
+data/*.duckdb.wal
+
+# logs
+*.log
+
+# os
+.DS_Store
+Thumbs.db
+
+# editors
+.vscode/
+.idea/
+*.swp
+
+# workspace tooling (not project)
+.claude/
+.gstack/
+
+# node (Phase 2 may add a tailwind build)
+node_modules/
